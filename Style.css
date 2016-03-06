@@ -1,0 +1,36 @@
+body{
+    background-color:white;
+    width:100%;
+}
+#wrapper
+{
+    width:1200px;
+    margin:0 auto 0 auto;
+    background-color:black;
+}
+#header_wrapper
+{
+    width:100%;
+
+}
+#header
+{
+    
+    width:100%;
+    text-align:center;
+}
+ul
+{
+    list-style-type:none;
+}   
+li{
+    display:inline;
+    margin: 0 50px 0 50px;
+}
+li a{
+    text-decoration:none;
+    font-size:30px;
+    color:white;
+    background-color:darkgrey;
+    padding:2px;
+}
