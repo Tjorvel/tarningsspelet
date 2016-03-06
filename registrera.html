@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Tärningsspel</title>
+	<meta charset="utf-8">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type = "text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="projekt.css">
+
+</head>
+
+
+
+<body onlode="register()">
+	
+
+
+	<div id="header"></div>
+
+	
+
+		<div class="menu">
+		
+		<ul>
+			<li><a href="projekt.html"  >Spela</a></li>
+			
+			<li><a href="registrera.html" >Registrera</a></li>
+		</ul>
+
+		</div>
+
+	<div id="registerMeny">	
+	<h1> Registrering</h1>
+	<form id="registerForm">
+		
+				<input type="text" id ="reg_name" placeholder="Namn" title="Endast bokstäver" pattern="([a-zA-Z]*)" autofocus required/>
+			
+				
+				<input type ="text"  id="reg_ename" placeholder="Efternamn" title="Endast bokstäver" pattern="([a-zA-Z]*)" autofocus required/>
+	
+				<br><br>
+
+				<input type="password" id="reg_pw" placeholder="Lösenord" title="Mata in ett lösenord: Minst 1 stor bokstav, 1 liten bokstav, och minst minst 6 tecken" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" autofocus required/>
+						
+						
+				<input type="email" id="reg_email" placeholder="E-post" title="Skriv in en korrekt email" pattern="[-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+\.[a-zA-Z]{2,4}" autofocus required />
+
+				<br><br>
+
+				<input type="button" id="btn_Reg" value="Registrera" onclick="register();" />
+
+	</form>	
+	</div>
+
+</body>
+
+</html>

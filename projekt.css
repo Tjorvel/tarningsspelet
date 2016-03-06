@@ -1,0 +1,160 @@
+body{
+
+
+	background-color: black; 
+
+}
+
+#header{
+	width: 980px;
+	height: 180px;
+	background-image: url(bilder/meny.jpg);
+	margin: auto;
+	border: solid white;
+}
+.menu{
+	width: 980px;
+	height: 40px;
+	background-color: white;
+	border: solid white;
+	margin: auto;
+}
+.menu ul{
+
+	margin: 5px 0 20px 0;
+
+
+}
+.menu li{
+
+	color: white;
+
+	display: inline;
+	list-style-type: none;
+	margin: 0 10px 0 5px;
+	font-size: 22px;
+	font-style: "Arial Black", sans-serif;
+}
+#inloggform{
+
+	color: white;
+	width: 180px;
+	height: 180px;
+	margin: auto;
+
+
+}
+
+#inlogged{
+
+	
+	width: 986px;
+	height: 500px;
+	margin: 0 0 50px 0;
+	margin: auto;
+	background-color: white;
+	border: solid black 2px;
+}
+#spelform label {
+	margin: 0 0 0 300px;
+}
+#spelmeny{
+
+	margin: 5px 0  0 10px;
+}
+.dice div{
+
+	display: inline;
+
+
+}
+/*#t1{
+
+	width:120px;
+	height:120px;
+	display:inline;
+	background:black;
+	text-align:center;
+	margin: auto;
+
+}
+
+#t2{
+
+	width:120px;
+	height:120px;
+	display:inline;
+	background: black;
+	text-align:center;
+	margin: auto;
+}
+#t3{
+
+	width:120px;
+	height:120px;
+	display:inline;
+	background: black;
+	text-align:center;
+	margin: auto;
+}
+#t4{
+
+	width:120px;
+	height:120px;
+	display:inline;
+	background: black;
+	text-align:center;
+	margin: auto;
+}*/
+#footer{
+
+	margin: 120px 0 0 5px;
+
+}
+#highScore{
+
+	width: 986px;
+	height: 500px;
+	margin: 0 0 50px 0;
+	margin: auto;
+	background-color: white;
+	border: solid black 2px;
+}
+#highScoreRubrik{
+
+	margin: 0 0 0 10px;
+
+}
+#registerMeny{
+
+	width: 986px;
+	height: 500px;
+	margin: 0 0 50px 0;
+	margin: auto;
+	background-color: white;
+	border: solid black 2px;
+
+}
+
+#btn_loggOff{
+
+
+	margin: 120px 0 0 5px;
+}
+#registerForm{
+
+	margin: 70px 0 0 320px;
+}
+#btn_Reg{
+
+	margin: 0 0 0 122px;
+}
+#registerMeny h1{
+
+	margin: 20px 0 0 10px;
+
+}
+#btn_Reset {
+
+	margin: 0 0 0 5px;
+}
